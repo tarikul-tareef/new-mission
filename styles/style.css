@@ -120,8 +120,7 @@ header {
   margin-bottom: 24px;
 }
 
-/* 
- */
+/* Footer/Contact Section Styles*/
 footer {
   width: 100%;
   background: #151414;
@@ -175,7 +174,7 @@ footer {
   background: #151414;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
-  width: 85%;
+  width: 90%;
 }
 
 .btn-subscribe {
