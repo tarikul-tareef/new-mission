@@ -19,8 +19,16 @@
   border-radius: 5px;
   border: 0;
 }
-section{
+
+section {
   margin-bottom: 130px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 25px;
 }
 
 /* header section styles */
@@ -56,47 +64,128 @@ header {
   display: flex;
   gap: 90px;
 }
+
 .my-failure div {
   margin-top: 240px;
   width: 30%;
 }
-.section-title {
-  font-weight: 700;
-  font-size: 40px;
-  color: #151414;
-  margin-bottom: 25px;
-}
-.my-failure p{
+
+.my-failure p {
   color: #444343;
 }
-.description{
+
+.description {
   margin-bottom: 16px;
 }
-.check-description{
+
+.check-description {
   margin-bottom: 8px;
 }
 
 /* My Plans Styles */
-.my-plans .section-title{
+.my-plans .section-title {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.plans{
+.plans {
   display: flex;
   gap: 20px;
   text-align: center;
 }
-.plan-title{
+
+.plan-title {
   font-weight: 700;
-font-size: 30px;
-color: #151414;
-margin: 20px 0;
+  font-size: 30px;
+  color: #151414;
+  margin: 20px 0;
 }
 
-.plan-description{
+.plan-description {
   font-weight: 500;
-font-size: 25px;
-color: #737272;
+  font-size: 25px;
+  color: #737272;
+}
 
+/* call now section */
+
+.call-now {
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+  border-radius: 8px;
+  padding: 60px 620px 60px 64px;
+}
+
+.call-now .section-title {
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+/* 
+ */
+footer {
+  width: 100%;
+  background: #151414;
+  padding: 130px 0;
+  color: #FFFFFF;
+}
+
+.contact {
+  display: flex;
+  gap: 300px;
+}
+
+.contact div {
+  width: 50%;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+  color: #F8F8F8;
+}
+
+.contact p {
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.contact input {
+  display: block;
+}
+
+.input-email {
+  color: #F3F3F3;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  background: #151414;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  width: 85%;
+}
+
+.btn-subscribe {
+  text-align: center;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  background: #005FAC;
+  border-radius: 8px;
+  color: #FFFFFF;
 }
